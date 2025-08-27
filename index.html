@@ -1,0 +1,211 @@
++<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Page</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #141e30, #243b55);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      text-align: center;
+    }
+
+    /* Header with Profile Pic */
+    header {
+      padding: 40px 20px;
+      background: rgba(0,0,0,0.5);
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    /* Navigation */
+    nav {
+      background: rgba(0,0,0,0.8);
+      padding: 10px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    /* Intro Paragraph */
+    #intro {
+      max-width: 600px;
+      margin: 20px auto 40px auto;
+      font-size: 16px;
+      color: #ddd;
+      line-height: 1.5;
+    }
+
+    /* Sections */
+    .section {
+      margin: 40px auto;
+      max-width: 500px;
+      padding: 20px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+    .circle-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      object-fit: cover;
+      transition: 0.3s;
+    }
+    .circle-img:hover {
+      transform: scale(1.1);
+      border-color: #ffcc00;
+    }
+    .link {
+      display: block;
+      margin-top: 8px;
+      color: #00acee;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .link:hover {
+      color: #ffcc00;
+    }
+    .username {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #ffcc00;
+    }
+    .desc {
+      margin-top: 10px;
+      font-size: 15px;
+      line-height: 1.5;
+      color: #ddd;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.6);
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="gv.jpg" alt="My Profile">
+    <h1>Welcome to My Website</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#instagram">Instagram</a>
+    <a href="#facebook">Facebook</a>
+    <a href="#twitter">Twitter</a>
+    <a href="#youtube">YouTube</a>
+    <a href="#snap">Snapchat</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Intro Paragraph -->
+  <p id="intro">
+    👋 Hi, I’m Gyan!<br>
+I’m a student from Bihar, India. In my free time, I love gaming 🎮 and coding 💻.<br>
+I can create simple and creative websites like portfolios, web games, application forms, and surprise web pages.<br>
+You can follow or contact me through my social links 🚀
+  </p>
+
+  <!-- Instagram Section -->
+  <div class="section" id="instagram">
+    <a href="https://www.instagram.com/it_lonely.boy?igsh=MTN4OXFqdmZmb2o=" target="_blank">
+      <img src="ga.jpg" class="circle-img" alt="Instagram">
+    </a>
+    <a href="https://www.instagram.com/it_lonely.boy?igsh=MTN4OXFqdmZmb2o=" target="_blank" class="link">Instagram</a>
+    <p class="username">it_lonely.boy</p>
+    <p class="desc">this is my instragram i'd you can follow me or contact me. </p>
+  </div>
+
+  <!-- Facebook Section -->
+  <div class="section" id="facebook">
+    <a href="https://facebook.com/yourid" target="_blank">
+      <img src="gv.jpg" class="circle-img" alt="Facebook">
+    </a>
+    <a href="https://facebook.com/yourid" target="_blank" class="link">Facebook</a>
+    <p class="username">facebook.com/yourid</p>
+    <p class="desc">tuis is my facebook i'd you can send me friend request.</p>
+  </div>
+
+  <!-- Twitter Section -->
+  <div class="section" id="twitter">
+    <a href="https://x.com/gyangup73551619" target="_blank">
+      <img src="tw.jpg" class="circle-img" alt="Twitter">
+    </a>
+    <a href="https://x.com/gyangup73551619" target="_blank" class="link">Twitter</a>
+    <p class="username">gyan gypta</p>
+    <p class="desc">this is my twitter account you can see my activity here..</p>
+  </div>
+
+  <!-- YouTube Section -->
+  <div class="section" id="youtube">
+    <a href="https://youtube.com/@g.ksong2.0?si=L-00fmB0Ps6uLUQK" target="_blank">
+      <img src="yt.jpg" class="circle-img" alt="YouTube">
+    </a>
+    <a href="https://youtube.com/@g.ksong2.0?si=L-00fmB0Ps6uLUQK" target="_blank" class="link">YouTube</a>
+    <p class="username">GK song 2.0</p>
+    <p class="desc">this is my youtube channel <br>this channel is only for songs <br> you can listen to my songs also <br> i hope you like it</p>
+  </div>
+
+  <div class="section" id="snap">
+    <a href="https://www.snapchat.com/add/r_s821312?share_id=rwtYyBid2dA&locale=en-GB" target="_blank">
+      <img src="in.jpg" class="circle-img" alt="YouTube">
+    </a>
+    <a href="https://www.snapchat.com/add/r_s821312?share_id=rwtYyBid2dA&locale=en-GB" target="_blank" class="link">snapchat</a>
+    <p class="username">GK song 2.0</p>
+    <p class="desc">this is my snapchat i'd you can add me your friend list..</p>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="section" id="contact">
+    <a href="tel:+917742812298">
+      <img src="ga.jpg" class="circle-img" alt="Mobile">
+    </a>
+    <a href="tel:+917742812298" class="link">📞 Call Me</a>
+    <p class="username">+91-774281****</p>
+    <p class="desc">this is my number, call me only for importany work.</p>
+
+    <a href="mailto:gyangupta16368@gmail.com">
+      <img src="gy.jpg" class="circle-img" alt="Email">
+    </>
+    <a href="gyangupta16368@gmail.com" class="link">📧 Email Me</a>
+    <p class="username">gyan gupta</p>
+    <p class="desc">If you want a simple website, you can mail me.</p>
+  </div>
+
+  <footer>
+    <p>© 2025 My Personal Page | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
